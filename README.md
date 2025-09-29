@@ -8,3 +8,6 @@ This repository contains the projects I completed in OPS, a branch of the Instit
 
 This project featured a breadboard circuit with passive buzzers that were programmed to play various musical pieces.
 
+<p align="center">
+  <img src="http://some_place.com/image.png" />
+</p>
