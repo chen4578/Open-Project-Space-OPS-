@@ -32,4 +32,6 @@ A classic tic-tac-toe game on an OLED controlled by a joystick.
 
 A variable speed hand-following car that depends on the distance a hand is from the car. A proportional-integral-derivative controller was implemented to control the car.
 
-
+<p align="center">
+  <img src="https://github.com/chen4578/Open-Project-Space-OPS-/blob/6ba73d6f4822609155b4e7e2491fa6f54ee778c1/assets/Screenshot%202025-09-29%20173506.png" width="400">
+</p>
