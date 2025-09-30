@@ -12,6 +12,14 @@ This project featured a breadboard circuit with passive buzzers that were progra
   <img src="https://github.com/chen4578/Open-Project-Space-OPS-/blob/ecdce233bbb0ff3a687570c225fd4704addc70f3/assets/Screenshot%202025-09-29%20165255.png?raw=true" width="400">
 </p>
 
+### Distance Sensor
+
+Used infrared (IR) emitters and receivers to change LED brightness based on object proximity.
+
+<p align="center">
+  <img src="https://github.com/chen4578/Open-Project-Space-OPS-/blob/ecdce233bbb0ff3a687570c225fd4704addc70f3/assets/Screenshot%202025-09-29%20165255.png?raw=true" width="400">
+</p>
+
 ### Communication Protocols
 
 A classic tic-tac-toe game on an OLED controlled by a joystick.
