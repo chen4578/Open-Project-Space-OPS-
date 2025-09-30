@@ -17,5 +17,5 @@ This project featured a breadboard circuit with passive buzzers that were progra
 A classic tic-tac-toe game on an OLED controlled by a joystick.
 
 <p align="center">
-  <img src="https://github.com/chen4578/Open-Project-Space-OPS-/blob/ecdce233bbb0ff3a687570c225fd4704addc70f3/assets/Screenshot%202025-09-29%20165255.png?raw=true" width="400">
+  <img src="https://github.com/chen4578/Open-Project-Space-OPS-/blob/5f19d0a88cff6dcbe3946895afc467430ad89059/assets/Screenshot%202025-09-29%20171006.png" width="400">
 </p>
