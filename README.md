@@ -1,6 +1,6 @@
 # Open Project Space (OPS)
 
-This repository contains the projects I completed in OPS, a branch of the Institute of Electrical and Electronics Engineers (IEEE) at UCLA. Such projects provided electrical foundations including breadboarding, circuit design and analysis, and Arduino.
+This repository contains the projects I completed in OPS, a branch of the Institute of Electrical and Electronics Engineers (IEEE) at UCLA. Such projects provided electrical foundations, including breadboarding, circuit design and analysis, and Arduino.
 
 ## Project Overviews
 
@@ -30,8 +30,10 @@ A classic tic-tac-toe game on an OLED controlled by a joystick.
 
 ### Capstone Project
 
-A variable speed hand-following car that depends on the distance a hand is from the car. A proportional-integral-derivative controller was implemented to control the car.
+A variable-speed hand-following car that depends on the distance a hand is from the car. A proportional-integral-derivative controller was implemented to control the car.
 
 <p align="center">
   <img src="https://github.com/chen4578/Open-Project-Space-OPS-/blob/6ba73d6f4822609155b4e7e2491fa6f54ee778c1/assets/Screenshot%202025-09-29%20173506.png" width="400">
 </p>
+
+For more information, please see the [IEEE at UCLA](https://www.ieeebruins.com/projects) and [OPS](https://openproject.space/projects/) websites.
