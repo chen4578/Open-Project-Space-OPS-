@@ -17,7 +17,7 @@ This project featured a breadboard circuit with passive buzzers that were progra
 Used infrared (IR) emitters and receivers to change LED brightness based on object proximity.
 
 <p align="center">
-  <img src="https://github.com/chen4578/Open-Project-Space-OPS-/blob/ecdce233bbb0ff3a687570c225fd4704addc70f3/assets/Screenshot%202025-09-29%20165255.png?raw=true" width="400">
+  <img src="https://github.com/chen4578/Open-Project-Space-OPS-/blob/8cfc5682c2b040df881a5afd5e2e170e5e6a5875/assets/Screenshot%202025-09-29%20171943.png" width="400">
 </p>
 
 ### Communication Protocols
@@ -27,3 +27,9 @@ A classic tic-tac-toe game on an OLED controlled by a joystick.
 <p align="center">
   <img src="https://github.com/chen4578/Open-Project-Space-OPS-/blob/5f19d0a88cff6dcbe3946895afc467430ad89059/assets/Screenshot%202025-09-29%20171006.png" width="400">
 </p>
+
+### Capstone Project
+
+A variable speed hand-following car that depends on the distance a hand is from the car. A proportional-integral-derivative controller was implemented to control the car.
+
+
