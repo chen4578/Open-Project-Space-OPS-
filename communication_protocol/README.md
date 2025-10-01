@@ -13,5 +13,15 @@ The joystick requires three pins to record the joystick's x-axis position, y-axi
 The image below shows the circuit diagram.
 
 <p align="center">
-  <img src="https://github.com/chen4578/Open-Project-Space-OPS-/blob/223838da0f78471cfe7f6975fe81610ce7ee587a/assets/Screenshot%202025-09-29%20232328.png" width="400">
+  <img src="https://github.com/chen4578/Open-Project-Space-OPS-/blob/63bd06abb0d387d965559edf05609d85612c677c/assets/schematic.png" width="400">
 </p>
+
+### Programming
+
+#### The Joystick
+
+The first programming step in this project was to note the values the joystick out in the four cardinal directions, in addition to when the joystick is in the center. Knowing these values, we can define directions for specific values.
+
+#### The OLED Display
+
+The graphics for the gamecomes from the following library: https://github.com/PrestonRooker/TicTacToeArduinoOLEDLibrary.
