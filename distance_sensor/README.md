@@ -10,4 +10,7 @@ In this project, I built a distance sensor using a phototransistor and an infrar
 
 The main aspect of the circuit arrangement that we should be aware of is keeping the IR receiver and emitter close together so that the receiver can adequately sense the infrared light. The intution is provided in the following picture.
 
+<p align="center">
+  <img src="https://github.com/chen4578/Open-Project-Space-OPS-/blob/223838da0f78471cfe7f6975fe81610ce7ee587a/assets/Screenshot%202025-09-29%20232328.png" width="400">
+</p>
 
