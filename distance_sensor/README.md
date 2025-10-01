@@ -29,3 +29,7 @@ In our code, we will obtain the sensor values using `analogRead` and use `constr
 ## Demo
 
 https://github.com/user-attachments/assets/a54cc335-955b-4252-9b9b-af17d7f17536
+
+## Image References
+
+
