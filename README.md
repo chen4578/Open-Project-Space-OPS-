@@ -36,4 +36,6 @@ A variable-speed hand-following car that depends on the distance a hand is from 
   <img src="https://github.com/chen4578/Open-Project-Space-OPS-/blob/6ba73d6f4822609155b4e7e2491fa6f54ee778c1/assets/Screenshot%202025-09-29%20173506.png" width="400">
 </p>
 
+## Links
+
 For more information, please see the [IEEE at UCLA](https://www.ieeebruins.com/projects) and [OPS](https://openproject.space/projects/) websites.
