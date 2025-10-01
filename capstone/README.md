@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The capstone project involves building a battery-powered hand-following car. The controller we will be using is a proportional-integral-derivative (PID) controller so that the car can change its speed depending on the distance the hand is from the car. The car measures distance via an ultrasonic sensor.
+The capstone project involves building a battery-powered hand-following car. The controller we will be using is a proportional-integral-derivative (PID) controller so that the car can change its speed and direction depending on the distance the hand is from the car. The car measures distance via an ultrasonic sensor.
 
 ### Breadboard Setup
 
@@ -22,3 +22,10 @@ The motors were powered using the computer's USB port. The final product funcati
 
 #### Programming
 
+## Demo
+
+Link to the demo: https://drive.google.com/file/d/1BDFs_4fVz2LrmuyIbmQ1BQPbspYCloH1/view?usp=sharing.
+
+## Image References
+
+Images were sourced from the [OPS](https://openproject.space/projects/) website.
