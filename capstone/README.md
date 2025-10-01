@@ -24,7 +24,7 @@ The motors were powered using the computer's USB port. The final product funcati
 
 ## Demo
 
-
+Link to the demo: https://drive.google.com/file/d/1bsNgrWB2eWAD8N-TM2sFoxs8wXEFVv8U/view?usp=sharing.
 
 ## Image References
 
