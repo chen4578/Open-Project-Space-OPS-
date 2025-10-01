@@ -11,5 +11,14 @@ The capstone project involves building a battery-powered hand-following car. The
 To control the car motors, we use a L293D IC (integrated circuit) chip. The pins on the chip are shown in the image below.
 
 <p align="center">
-  <img src="https://github.com/chen4578/Open-Project-Space-OPS-/blob/00a2dc64bffb77ab1def42925496dc5a38b4b3c6/assets/distance-sensor-2.png" width="400">
+  <img src="https://github.com/chen4578/Open-Project-Space-OPS-/blob/4a67021af31df274034921ef08d3dc453648e4ee/assets/L293D-input-output.png" width="400">
 </p>
+
+Pins 4, 5, 8, 12, 13, and 16 are for power supply. Pins 2, 7, 10, and 15 are for direction inputs. Speed input is managed by pins 1 and 9. Lastly, pins 3, 6, 11, and 14 shows what the IC has done.
+
+We also needed to solder wires onto our motors.
+
+The motors were powered using the computer's USB port. The final product funcations wirelessly using a 9V battery.
+
+#### Programming
+
