@@ -24,7 +24,7 @@ The motors were powered using the computer's USB port. The final product funcati
 
 ## Demo
 
-https://github.com/chen4578/Open-Project-Space-OPS-/blob/1a0140d196924af0e808992f24383bf1f84483c8/assets/IMG_0337.MOV
+
 
 ## Image References
 
