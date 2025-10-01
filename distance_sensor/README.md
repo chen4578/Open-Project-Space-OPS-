@@ -27,3 +27,5 @@ First, we need to zero out the sensor reading due to ambient noise. This is achi
 In our code, we will obtain the sensor values using `analogRead` and use `constrain` to set the minimum value to zero and the maximum value to the average we obtained before. Then, we use the `map` function to correspond the sensor readings to a number in the range of 0 to 255 to be inputted as arguments to change the LED's brightness. 
 
 ## Demo
+
+https://github.com/user-attachments/assets/a54cc335-955b-4252-9b9b-af17d7f17536
