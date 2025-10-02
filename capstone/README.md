@@ -8,31 +8,29 @@ The capstone project involves building a battery-powered hand-following car. The
 
 #### Motors
 
-To control the car motors, we use a L293D IC (integrated circuit) chip. The pins on the chip are shown in the image below.
+To control the car motors, we use an L293D IC (integrated circuit) chip. The image below displays the pins on the chip.
 
 <p align="center">
   <img src="https://github.com/chen4578/Open-Project-Space-OPS-/blob/4a67021af31df274034921ef08d3dc453648e4ee/assets/L293D-input-output.png" width="400">
 </p>
 
-Pins 4, 5, 8, 12, 13, and 16 are for power supply. Pins 2, 7, 10, and 15 are for direction inputs. Speed input is managed by pins 1 and 9. Lastly, pins 3, 6, 11, and 14 shows what the IC has done.
+Pins 4, 5, 8, 12, 13, and 16 are for the power supply. Pins 2, 7, 10, and 15 are for direction inputs. Speed input is managed by pins 1 and 9. Lastly, pins 3, 6, 11, and 14 show what the IC has done.
 
-We also needed to solder wires onto our motors.
+Next, we solder wires onto our motors. The motors were powered using the computer's USB port. The final product functions wirelessly using a 9V battery.
 
-The motors were powered using the computer's USB port. The final product funcations wirelessly using a 9V battery.
+### Programming
 
-#### Programming
-
-##### Ultrasonic Sensor
+#### Ultrasonic Sensor
 
 First, we will zero out the ultrasonic sensor readings by taking the average of 100 values to get what the sensor reads when there is nothing in front of the sensor.
 
 We create a function called `read_ultra` that averages 10 readings in quick succession from `pulseIn` to get the time it takes to read the reflected sound waves. The returned value of `read_ultra` is constrained between 0 and the average when the sound wave is not reflected using `constrain`.
 
-The time obtained from the ultrasonic sensor will be used to calculate the distance the hand is from the car by multiplying the time by the speed of sound and diving the product by 2.
+The time obtained from the ultrasonic sensor will be used to calculate the distance the hand is from the car by multiplying the time by the speed of sound and dividing the product by 2.
 
-##### PID
+#### PID
 
-The PID controller takes the error, which is the difference between the calculated distance and a specified target distance we want to car to be away from the hand and  
+The PID controller takes the error, which is the difference between the calculated distance and a specified target distance, and calculates how much we should add to the minimum speed to get to the target distance. Specifically, we sum Kp times the error, Ki times the integral of the error, and Kd times the derivative of the error. The derivative is the current error minus the previous loop iteration divided by the difference in time. The integral is taken by taking the cumulative sum of all the past errors multiplied by the corresponding changes in time. Through experimentation, we choose Kp, Ki, and Kd to achieve our desired behavior.
 
 ## Demo
 
