@@ -22,6 +22,18 @@ The motors were powered using the computer's USB port. The final product funcati
 
 #### Programming
 
+##### Ultrasonic Sensor
+
+First, we will zero out the ultrasonic sensor readings by taking the average of 100 values to get what the sensor reads when there is nothing in front of the sensor.
+
+We create a function called `read_ultra` that averages 10 readings in quick succession from `pulseIn` to get the time it takes to read the reflected sound waves. The returned value of `read_ultra` is constrained between 0 and the average when the sound wave is not reflected using `constrain`.
+
+The time obtained from the ultrasonic sensor will be used to calculate the distance the hand is from the car by multiplying the time by the speed of sound and diving the product by 2.
+
+##### PID
+
+The PID controller takes the error, which is the difference between the calculated distance and a specified target distance we want to car to be away from the hand and  
+
 ## Demo
 
 Link to the demo: https://drive.google.com/file/d/1bsNgrWB2eWAD8N-TM2sFoxs8wXEFVv8U/view?usp=sharing.
